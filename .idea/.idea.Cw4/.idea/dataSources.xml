@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PJATK" uuid="9adc7f23-2093-403d-96c8-e8df7f01c3bd">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://db-mssql.pjwstk.edu.pl:1433;domain=pjwstk.edu.pl;databaseName=s19054</jdbc-url>
+      <driver-properties>
+        <property name="USENTLMV2" value="true" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
