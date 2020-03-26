@@ -8,6 +8,7 @@
       <jdbc-url>jdbc:jtds:sqlserver://db-mssql.pjwstk.edu.pl:1433;domain=pjwstk.edu.pl;databaseName=s19054</jdbc-url>
       <driver-properties>
         <property name="USENTLMV2" value="true" />
+        <property name="integratedSecurity" value="true" />
       </driver-properties>
     </data-source>
   </component>

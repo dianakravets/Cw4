@@ -11,6 +11,7 @@
         </e>
         <e p="Cw4.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
+          <e p="Semestr.cs" t="Include" />
           <e p="Student.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -23,6 +24,10 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IStudentsDal.cs" t="Include" />
+          <e p="SqlServerDbDal.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
